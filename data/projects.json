@@ -1,0 +1,39 @@
+[
+    {
+        "title":"Aplicación de productividad",
+        "description":"Fue desarrollado con HTML, CSS y JavaScript, La aplicación tiene como función agregar tarea y cuenta con un pomodoro. Además pues personalizarlo cambiado el tema  y la letra.",
+        "img":"../assets/todo-app.png",
+        "link":"https://yerikah.github.io/my-task-app/public/#"
+    },
+    {
+        "title":"Juego de mecanografía",
+        "description":"El desarrollo fue principalmente con JavaScript, consumiendo un JSON, con Async Await, También contiene diferentes temas.",
+        "img":"../assets/typebreak.png",
+        "link":"https://yerikah.github.io/type-break-app/"
+    },
+    {
+        "title":"e-commerce Prevent Nature",
+        "description":"Un e-commerce que vende productos naturales, a base de moringa, cuenta con un carrito de compras, Se desarrollo con JavaScript LocalStorage.",
+        "img":"../assets/prevent-nature.png",
+        "link":"https://harveyloop.github.io/prevent-nature/public/"
+    },
+    {
+        "title":"Aplicación to-do-app",
+        "description":"Aplicación para agregar tareas, quitarlas y actualizarlas, El diseño es de Front-end mentor, fue desarrollado la librería de JavaScript, React.",
+        "img":"../assets/react.png",
+        "link":"https://yerikah.github.io/to-do-frontend-mentor/"
+    },
+    {
+        "title":"Todoyou app",
+        "description":"Desarrollado con el microframework Flask, permite al usuario agregar tareas y crear su propia cuenta, Trabaja con la base de datos de firestore.",
+        "img":"../assets/flask-python.png",
+        "link":"https://github.com/YerikAH/todoyou-fullstack"
+    },
+    {
+        "title":"Rock Paper Scissors Game",
+        "description":"El diseño es de front-end Mentor, Un juego sencillo, fue desarrollado con React, usando el hook de useReducer, y también se uso styled-component.",
+        "img":"../assets/pd.jpg",
+        "link":"https://github.com/YerikAH/rock-paper-scissors-game-frontendmentor"
+    }
+
+]

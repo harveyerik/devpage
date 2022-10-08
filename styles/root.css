@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --white: #e7e7e7;
+  --white-light: #7e7e7e;
+  --white-med: #ececec;
+  --dark: #151515;
+  --dark-med: #313131;
+  --dark-light: #222;
+  --blue-dark: rgb(53, 99, 199);
+  --blue-light: rgb(81, 136, 255);
+  --type: "Open Sans", Arial;
+  /* variables */
+}
+/* font family */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--type);
+}
+html {
+  overflow-x: hidden;
+}
+a,
+input,
+li,
+button,textarea {
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  resize:none
+}
+section {
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+div {
+  transition: 0.2s;
+  transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+button{
+  cursor: pointer;
+}
+footer{
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin: 1rem 0;
+  color: var(--white);
+}

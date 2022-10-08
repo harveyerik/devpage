@@ -1,0 +1,16 @@
+[
+    {
+        "name":"HARVEY YERIK",
+        "description":"Soy desarrollador front-end con React y Vue.js, y estudiante de ingeniería de software, Por otro lado, ahora estoy estudiando un poco de Back-end con PHP, si quieres ver algunos de mis proyectos puedes ",
+        "img":"../assets/logo-desktop.svg",
+        "gmail":"https://github.com/YerikAH"
+    },
+    {
+        "portfolio":"https://yerikah.github.io/briefcase/"
+    },
+    {
+        "github":"https://github.com/YerikAH",
+        "twitter":"https://twitter.com/yerikhar",
+        "likeind":"https://www.linkedin.com/in/harvey-huaranga-802218228/"
+    }
+]

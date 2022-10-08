@@ -1,0 +1,191 @@
+.section_all {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+.grid-all-present {
+  max-width: 720px;
+  border-radius: 1em;
+  background-color: var(--dark-light);
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;  
+  max-height: 30rem;
+  display: grid;
+  position: relative;
+  grid-template-rows: 50% 50%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
+}
+.grid-all-present__two-text {
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin: 2rem 2rem;
+  text-align: justify;
+  color: var(--white-light);
+}
+.grid-all-present__two-title {
+  color: var(--white);
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 1rem 2rem;
+  font-weight: 400;
+}
+.grid-all-present__two-text a {
+  color: var(--blue-dark);
+  text-decoration: underline;
+  font-weight: 700;
+  font-style: italic;
+}
+.grid-all-present__two-form {
+  margin: 1rem 2rem;
+  display: grid;
+  gap: 1rem;
+}
+.grid-all-present__two-form input {
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5rem 1rem;
+}
+.grid-all-present__two-form textarea {
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5rem 1rem;
+  background-color: var(--dark-med);
+  color: var(--white);
+  height: 5rem;
+  font-size: 0.8rem;
+}
+.grid-all-present__two-form input[type="email"] {
+  background-color: var(--dark-med);
+  color: var(--white);
+}
+.grid-all-present__two-form input[type="text"] {
+  background-color: var(--dark-med);
+  color: var(--white);
+}
+.grid-all-present__two-form input[type="submit"] {
+  color: var(--white);
+  background-color: var(--blue-light);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.grid-all-present__two-form input[type="submit"]:hover {
+  background-color: var(--blue-dark);
+}
+.grid-all-present__two-subtitle {
+  margin: 0rem 2rem;
+  font-size: 1rem;
+  color: var(--white);
+  font-style: italic;
+  letter-spacing: 0.2rem;
+  opacity: 0.9;
+}
+.separator {
+  width: 80%;
+  height: 1px;
+  background: var(--white);
+  color: var(--white);
+  margin: 0.5rem 2rem;
+}
+.grid-all-present__two-links {
+  display: grid;
+  margin: 1rem 2rem;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+.grid-all-present__two-links a {
+  color: var(--blue-dark);
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  transition: 0.3s;
+}
+.grid-all-present__two-links a:hover {
+  color: var(--blue-light);
+  letter-spacing: 0.09em;
+}
+.grid-all-present__two {
+  overflow: initial;
+  height: 100%;
+}
+.grid-all-present__two_social_media ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 2rem 0;
+}
+.grid-all-present__two_social_media svg {
+  scale: 0.8;
+}
+.grid-all-present__one_responsive-img__all {
+
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: auto;
+  background-position: center;
+}
+.grid-all-present__one_responsive-img,
+.grid-all-present__one_responsive-img__all {
+  height: 100%;
+}
+@media (min-width: 720px) {
+  .grid-all-present {
+    grid-template-columns: 50% 50%;
+  }
+  .grid-all-present__two {
+    margin: 2rem 0;
+  }
+  .grid-all-present__two_social_media {
+    margin: 3rem 2rem;
+  }
+  .grid-all-present__two-title {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+  .grid-all-present{
+    overflow: hidden;
+    grid-template-rows: 100%;
+  }
+  .grid-all-present__two{
+    overflow: auto;
+  }
+}
+.svg-social-media > a > svg > path{
+  transition: 0.3s;
+  fill: var(--white);
+  opacity: 0.3;
+}
+.svg-social-media:hover > a > svg > path{
+  fill:var(--blue-dark);
+  opacity: 1;
+}
+.idJustonlContainer{
+  position: relative;
+overflow: hidden;
+display: flex;
+}
+.idJustonl{
+  max-width: 282px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+
+  margin: 1rem 2rem;
+}
+.idJustonl iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  }

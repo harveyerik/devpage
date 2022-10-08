@@ -1,0 +1,82 @@
+/* button dark mode */
+#darkmode {
+  position: absolute;
+  border-radius: 255px;
+  border: none;
+  right: 0;
+  margin: 1rem;
+}
+.darkmode-class{
+  background-image: url("../assets/sun.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1.2rem;
+  padding: 1rem;
+}
+
+.dark {
+  background-color: var(--dark);
+}
+.light {
+  background-color: var(--white);
+}
+.light .grid-all-present {
+  background-color: var(--white-med);
+}
+.light .grid-all-present__two-title {
+  color: var(--dark);
+}
+.light .grid-all-present__two-subtitle {
+  color: var(--dark);
+}
+.light .separator {
+  background: var(--dark-light);
+}
+.light .grid-all-present__two-form input[type="email"] {
+  background: var(--white);
+  color: var(--dark);
+}
+.light  .grid-all-present__two-form textarea {
+  background: var(--white);
+  color: var(--dark);
+}
+.light .grid-all-present__two-form input[type="text"] {
+  background: var(--white);
+  color: var(--dark);
+}
+.light .grid-all-present__two_social_media svg path {
+  fill: var(--dark);
+}
+.light .section-projects{
+  background-color: var(--white-med);
+}
+.light .section-projects-center-content__optional__title-principal{
+  color: var(--dark-light);
+}
+.light .react-icon circle,.light .sass-icon circle,.light .vue-icon circle,.light .django-icon circle {
+  fill: var(--white);
+}
+.light .section-projects-center-content__skills b {
+  color: var(--dark-med);
+  opacity: 0.7;
+}
+.light .section_all{
+  background-color: var(--white);
+}
+.light .header-nav__ul  a{
+  color: var(--dark-med);
+}
+.light .header-nav__ul{
+  background: var(--white-med)
+}
+.light .section-projects-center-contente__projects_box{
+  background-color: var(--white);
+}
+.light .section-projects-center-contente__projects_box h4{
+  color: var(--dark-med);
+  opacity: 0.8;
+
+}
+.light footer{
+  color: var(--dark);
+}
